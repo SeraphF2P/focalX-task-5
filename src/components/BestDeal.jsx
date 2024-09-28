@@ -126,7 +126,7 @@ export const BestDeal = () => {
         {cards.map((card, index) => {
           return (
             <div
-              key={index}
+              key={card.image}
               className="relative w-full max-w-[378px]  aspect-[320/235] 2xl:max-w-full"
             >
               <img
