@@ -25,68 +25,68 @@ const sections = {
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-1.png",
+      image: "/images/best-deal-1.webp",
     },
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-2.png",
+      image: "/images/best-deal-2.webp",
     },
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-3.png",
+      image: "/images/best-deal-3.webp",
     },
   ],
   commercial: [
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-4.png",
+      image: "/images/best-deal-4.webp",
     },
     {
       featured: false,
       "3d": true,
-      image: "/images/best-deal-5.png",
+      image: "/images/best-deal-5.webp",
     },
     {
       featured: false,
       "3d": true,
-      image: "/images/best-deal-6.png",
+      image: "/images/best-deal-6.webp",
     },
   ],
   agriculture: [
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-7.png",
+      image: "/images/best-deal-7.webp",
     },
     {
       featured: false,
       "3d": true,
-      image: "/images/best-deal-8.png",
+      image: "/images/best-deal-8.webp",
     },
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-9.png",
+      image: "/images/best-deal-9.webp",
     },
   ],
   industrial: [
     {
       featured: false,
       "3d": false,
-      image: "/images/best-deal-10.png",
+      image: "/images/best-deal-10.webp",
     },
     {
       featured: true,
       "3d": false,
-      image: "/images/best-deal-11.png",
+      image: "/images/best-deal-11.webp",
     },
     {
       featured: true,
       "3d": true,
-      image: "/images/best-deal-12.png",
+      image: "/images/best-deal-12.webp",
     },
   ],
 };
@@ -132,6 +132,7 @@ export const BestDeal = () => {
               <img
                 className=" relative w-full max-w-[378px]  aspect-[320/235] 2xl:max-w-full"
                 src={card.image}
+                loading="lazy"
                 alt={`deal-${index}`}
               />
               <div className=" text-white space-x-[7px] capitalize absolute top-[14px] left-[14px] ">
